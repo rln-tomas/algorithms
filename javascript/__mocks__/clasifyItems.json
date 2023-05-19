@@ -1,0 +1,50 @@
+{
+  "itemsTest": [
+    {
+      "name": "prueba",
+      "value": "un valor"
+    },
+    {
+      "name": "otraPrueba",
+      "value": "algo"
+    },
+    {
+      "name": "aaaa",
+      "value": "bbbb"
+    }
+  ],
+  "clasifyByTest": [
+    {
+      "title": "Title Prueba",
+      "itemsToFilter": ["prueba", "otraPrueba"]
+    },
+    {
+      "title": "Otro title",
+      "itemsToFilter": ["aaaa"]
+    }
+  ],
+  "correctReturn": [
+    {
+      "title": "Title Prueba",
+      "items": [
+        {
+          "name": "prueba",
+          "value": "un valor"
+        },
+        {
+          "name": "otraPrueba",
+          "value": "algo"
+        }
+      ]
+    },
+    {
+      "title": "Otro title",
+      "items": [
+        {
+          "name": "aaaa",
+          "value": "bbbb"
+        }
+      ]
+    }
+  ]
+}
